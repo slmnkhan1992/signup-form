@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/1341437653/photo/abstract-composition-with-connecting-dots-and-lines-futuristic-network-background-for.webp?b=1&s=170667a&w=0&k=20&c=dvHp0Kmr1AnjtiVHSe_fSRCzwUThDPx_SlW_n1UUiPg=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#inner {
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+    display: flex;
+    padding: 42px 15px;
+    color: white;
+}
+
+#Intro {
+    width: 50%;
+    height: 100%;
+}
+
+#image {
+    width: 50%;
+    height: 100%;
+}
+
+#image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}

@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../asset/pexels-jplenio-1118861.jpg);
+    background-position: center;
+    background-size: cover; 
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 450px;
+    background-color: rgba(0, 0, 0, 0.);
+    
+    
+}
+
+#input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    padding: 10px 15px;
+}
+
+#input-area input{
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #8b8888;
+    padding: 10px 10px;
+}
+
+#input-area :last-child {
+    background: linear-gradient(60deg, blue, rgb(121, 43, 185));
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 22px;
+}
+
+#loader{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#loader img {
+    width: 200px;
+    height: 200px;
+}
